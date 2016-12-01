@@ -1,4 +1,9 @@
 {
     "name": "cahya6d6d6e/datetimepicker",
-    "description": "Composer package for xdan/datetimepicker"
+    "description": "Composer package for xdan/datetimepicker",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "kartik-v/php-date-formatter": "@dev"
+    }
 }
